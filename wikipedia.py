@@ -53,8 +53,7 @@ def test_java(browser):
 
     iscorrectresult = browser.find_element(By.ID,'firstHeading')
     assert iscorrectresult.text == 'Java'
-    time.sleep(30)
-    print("Pass")
+   
 
 
 @pytest.mark.python
@@ -65,5 +64,5 @@ def test_python(browser):
 
     iscorrectresult = browser.find_element(By.ID,'firstHeading')
     assert iscorrectresult.text == 'Python'
-    print("Pass")
+   
 
